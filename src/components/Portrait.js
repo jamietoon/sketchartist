@@ -3,8 +3,11 @@ import FaceImage from './images/face.png';
 
 class Portrait extends React.Component{
   render() {
-    return <div><img src={FaceImage}></img>
-    </div>;
+    return (
+    <div className='faceSlice'>
+      <img src={FaceImage} alt=''></img>
+    </div>
+    );
 
   } 
 

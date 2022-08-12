@@ -1,0 +1,15 @@
+.navButtonLeft{
+  float: left;
+  justify-content: center;
+}
+
+.navButtonRight{
+  float: left;
+  transform: scaleX(-1);
+  justify-content: center;
+}
+
+.faceSlice{
+  float: left;
+}
+
